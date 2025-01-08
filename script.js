@@ -4,7 +4,10 @@ function search() {
     alert("You must enter User ID");
   } else if (isNaN(inputbox.value)) {
     alert("You must enter a number");
-  } else {
+  } 
+  else {
+    const info = document.querySelector('.infomation');
+    info.style.display = (info.style.display === 'none' || info.style.display === '') ? 'block' : 'none';
     fetch(`https://jsonplaceholder.typicode.com/todos/${inputbox.value}`)
       .then(response => response.json())
       .then(json => {

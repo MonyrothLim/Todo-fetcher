@@ -28,6 +28,12 @@
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(186, 186, 186);
+    padding: 10px;
+}
+.inputbox:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 10px rgb(186, 186, 186);
 }
 .box button{
     width: 506px;
@@ -48,6 +54,7 @@
     position: relative;
     margin-top: 10px;
     padding: 5px;
+    display: none;
 }
 
 .title{
