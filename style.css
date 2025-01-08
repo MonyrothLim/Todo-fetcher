@@ -49,6 +49,7 @@
 .infomation{
     background-color: white;
     width: auto;
+    min-width: 500px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(186, 186, 186);
     position: relative;
